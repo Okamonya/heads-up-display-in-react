@@ -58,7 +58,7 @@ const ResolutionFrame = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
-    }, 5000);
+    }, 15000);
 
     return () => {
       clearTimeout(timer);
