@@ -1,0 +1,72 @@
+.call__container {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    padding: 10px;
+    border: 1px solid rgb(101, 223, 201);
+}
+
+.call__card {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.left__box h1{
+    color: rgb(101, 223, 201);
+}
+
+.call__card .right__box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.bottom__card {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2px;
+    padding: 2px;
+}
+
+.answer__call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    border: 1px solid rgb(101, 223, 201);
+}
+.pickback-color {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(101, 223, 201);
+}
+
+.pick {
+    font-size: 20px !important;
+}
+
+.reject__call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    border: 1px solid rgb(101, 223, 201);
+}
+
+.endback-color {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+}

@@ -1,0 +1,56 @@
+.glass-frame {
+   position: relative;
+   width: 350px;
+   height: 190px;
+   background-size: cover;
+   border: 1px solid #666;
+   border-radius: 42% 12% 59% 70% / 40% 48% 63% 78%;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   font-family: Arial, sans-serif;
+}
+
+nav {
+   background: rgba(255, 255, 255, 0.3);
+   width: max-content;
+   display: block;
+   padding: 0.6rem;
+   z-index: 2;
+   position: absolute;
+   left: 0%;
+   top: 5%;
+   transform: translateX(-50%);
+   display: flex;
+}
+
+nav li {
+   display: flex;
+   justify-content: center;
+   background: transparent;
+   padding: 2px;
+   padding-top: 2px;
+   display: flex;
+   font-size: 15px;
+}
+
+nav li:hover {
+   background: rgba(0, 0, 0, 0.3);
+}
+
+.active {
+   background-color: rgba(101, 223, 201, 0.5);
+   border-radius: 50%;
+   padding: 2px;
+   width: 15px;
+   height: 15px;
+}
+
+.time {
+   position: fixed;
+   top: -1%;
+   font-size: 10px;
+   color: rgb(255, 255, 255, 0.9);
+}
