@@ -13,7 +13,7 @@ const Home = () => {
     useEffect(() => {
         const timer = setInterval(() => {
             setTimedPopup(true);
-        }, 7000);
+        }, 10000);
 
         return () => {
             clearInterval(timer);
@@ -24,7 +24,7 @@ const Home = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setContentVisible(false);
-        }, 5000);
+        }, 7000);
 
         return () => clearTimeout(timeout);
     }, []);

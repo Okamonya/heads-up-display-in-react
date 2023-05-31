@@ -83,7 +83,7 @@ const ResolutionFrame = () => {
   };
 
   return (
-    <div className="glass-frame" style={{ backgroundImage: `url(${image3})` }}>
+    <div className="glass-frame" style={{ backgroundImage: `url(${currentImage})` }}>
       <p className="time">
         {showCurrentTime} {showTodayDate}
       </p>
